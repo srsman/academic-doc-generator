@@ -1,10 +1,6 @@
-# 使用你 package.json 里的名字，保持一致
 name = "sheerid-doc-generator"
-
-# 兼容性日期
 compatibility_date = "2024-11-29"
 
-# 核心配置：告诉 Cloudflare 你的 Vite 打包结果在哪里
+# 注意：这里只保留 directory，删掉 binding
 [assets]
 directory = "./dist"
-binding = "ASSETS"
