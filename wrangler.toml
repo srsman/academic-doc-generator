@@ -1,0 +1,11 @@
+# 1. 你的项目名称 (英文，可以用短横线)
+name = "doc-gen"
+
+# 2. 兼容性日期 (通常填今天的日期即可)
+compatibility_date = "2025-11-29"
+
+# 3. 开启静态资源托管 (最关键的一步)
+# 这告诉 Cloudflare：直接把 ./dist 文件夹里的内容作为网站发布
+[assets]
+directory = "./dist"
+binding = "ASSETS"
