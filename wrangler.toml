@@ -1,4 +1,4 @@
-name = "sheerid-doc-generator"
+name = "doc-gen"
 compatibility_date = "2024-11-29"
 
 # 注意：这里只保留 directory，删掉 binding
